@@ -1,0 +1,38 @@
+{
+  "environments": {
+    "dev": {
+      "base": "http://localhost:3000",
+      "api": "http://localhost:3001/api",
+      "home": "/",
+      "login": "/login",
+      "dashboard": "/dashboard",
+      "settings": "/settings",
+      "profile": "/profile"
+    },
+    "staging": {
+      "base": "https://staging.example.com",
+      "api": "https://staging-api.example.com/api",
+      "home": "/",
+      "login": "/login",
+      "dashboard": "/dashboard",
+      "settings": "/settings",
+      "profile": "/profile"
+    },
+    "production": {
+      "base": "https://example.com",
+      "api": "https://api.example.com/api",
+      "home": "/",
+      "login": "/login",
+      "dashboard": "/dashboard",
+      "settings": "/settings",
+      "profile": "/profile"
+    }
+  },
+  "endpoints": {
+    "auth": "/auth",
+    "users": "/users",
+    "products": "/products",
+    "orders": "/orders",
+    "categories": "/categories"
+  }
+}
